@@ -3,3 +3,4 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/blindcodes/public_html/
     - /bin/cp * $DEPLOYPATH
+    - /bin/cp -R images $DEPLOYPATH
